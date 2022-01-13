@@ -11,7 +11,9 @@ namespace Day20Assignment
         public enum exType
         {
             NULL_MSG,
-            EMPTY_MSG
+            EMPTY_MSG,
+            NO_SUCH_CLASS,
+            NO_SUCH_METHOD,
         }
 
         private readonly exType type;
