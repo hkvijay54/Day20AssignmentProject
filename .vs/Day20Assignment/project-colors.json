@@ -5,6 +5,7 @@
       "ProjectGuid": "72d47c2f-e913-41a4-b748-da05d5da5ba3",
       "DisplayName": "Day20Assignment",
       "ColorIndex": 0
+<<<<<<< HEAD
     },
     "0ef81d90-a54c-4d0d-bea8-53eab0991693": {
       "ProjectGuid": "0ef81d90-a54c-4d0d-bea8-53eab0991693",
@@ -13,4 +14,9 @@
     }
   },
   "NextColorIndex": 2
+=======
+    }
+  },
+  "NextColorIndex": 1
+>>>>>>> uc1
 }
