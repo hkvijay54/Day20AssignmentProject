@@ -20,6 +20,11 @@ namespace Day20Assignment
         {
             try
             {
+                if (this.msg.Equals(string.Empty))
+                {
+                    throw new CustomExceptions(CustomExceptions.exType.EMPTY_MSG, "String should not be empty");
+                }
+
                 if (this.msg.Contains("SAD"))
                 {
                     return "SAD";
@@ -29,11 +34,11 @@ namespace Day20Assignment
                     return "HAPPY";
                 }
             }
-            catch
+            catch (NullReferenceException)
             {
                 return "HAPPY";
+                throw new CustomExceptions(CustomExceptions.exType.NULL_MSG, "String should not be null");
             }
-
         }
     }
 }
