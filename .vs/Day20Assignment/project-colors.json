@@ -5,18 +5,17 @@
       "ProjectGuid": "72d47c2f-e913-41a4-b748-da05d5da5ba3",
       "DisplayName": "Day20Assignment",
       "ColorIndex": 0
-<<<<<<< HEAD
     },
     "0ef81d90-a54c-4d0d-bea8-53eab0991693": {
       "ProjectGuid": "0ef81d90-a54c-4d0d-bea8-53eab0991693",
       "DisplayName": "TestProject1",
       "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 2
-=======
-    }
-  },
-  "NextColorIndex": 1
->>>>>>> uc1
 }

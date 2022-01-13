@@ -28,6 +28,18 @@ namespace TestProject1
 
             Assert.AreEqual(exp, mood);
         }
+        //UC2
+        [TestMethod]
+        [DataRow(null)]
+        public void NullMoodReturn(string msg)
+        {
+            string exp = "HAPPY";
+            Mood m1 = new Mood(msg);
+
+            string mood = m1.Analysis();
+
+            Assert.AreEqual(exp, mood);
+        }
 
     }
 }

@@ -18,11 +18,18 @@ namespace Day20Assignment
 
         public string Analysis()
         {
-            if (this.msg.Contains("SAD"))
+            try
             {
-                return "SAD";
+                if (this.msg.Contains("SAD"))
+                {
+                    return "SAD";
+                }
+                else
+                {
+                    return "HAPPY";
+                }
             }
-            else
+            catch
             {
                 return "HAPPY";
             }
