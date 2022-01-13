@@ -1,0 +1,15 @@
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\bin\Debug\net6.0\Day20Assignment.exe
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\bin\Debug\net6.0\Day20Assignment.deps.json
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\bin\Debug\net6.0\Day20Assignment.runtimeconfig.json
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\bin\Debug\net6.0\Day20Assignment.dll
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\bin\Debug\net6.0\ref\Day20Assignment.dll
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\bin\Debug\net6.0\Day20Assignment.pdb
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.csproj.AssemblyReference.cache
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.AssemblyInfoInputs.cache
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.AssemblyInfo.cs
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.csproj.CoreCompileInputs.cache
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.dll
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\ref\Day20Assignment.dll
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.pdb
+D:\downloads\abc\C# day20 assignment\Day20Assignment\Day20Assignment\obj\Debug\net6.0\Day20Assignment.genruntimeconfig.cache
