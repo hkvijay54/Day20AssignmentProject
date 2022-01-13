@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "72d47c2f-e913-41a4-b748-da05d5da5ba3": {
+      "ProjectGuid": "72d47c2f-e913-41a4-b748-da05d5da5ba3",
+      "DisplayName": "Day20Assignment",
+      "ColorIndex": 0
+    },
+    "0ef81d90-a54c-4d0d-bea8-53eab0991693": {
+      "ProjectGuid": "0ef81d90-a54c-4d0d-bea8-53eab0991693",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
