@@ -8,7 +8,7 @@ namespace Day20Assignment
         static void Main(string[] args)
         {
             // UC1
-            Mood m1 = new Mood("SAD");
+            Mood m1 = new Mood("HAPPY");
             string msg = m1.Analysis();
             Console.WriteLine(msg);
         }
