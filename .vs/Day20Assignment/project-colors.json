@@ -20,7 +20,12 @@
       "ProjectGuid": "9fc5da75-07af-472b-aa56-52cecec989ac",
       "DisplayName": "TestProject2",
       "ColorIndex": 2
+    },
+    "4ccc1be2-615c-400b-b0cb-5ce3e1c65ea2": {
+      "ProjectGuid": "4ccc1be2-615c-400b-b0cb-5ce3e1c65ea2",
+      "DisplayName": "TestProject3",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
