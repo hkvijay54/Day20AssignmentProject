@@ -14,6 +14,11 @@ namespace Day20Assignment
             EMPTY_MSG,
             NO_SUCH_CLASS,
             NO_SUCH_METHOD,
+            NO_SUCH_PARAMETER,
+            NO_SUCH_TYPE,
+            NO_SUCH_EXCEPTION,
+            NO_SUCH_METHOD_EXCEPTION,
+            NULL_VALUE
         }
 
         private readonly exType type;

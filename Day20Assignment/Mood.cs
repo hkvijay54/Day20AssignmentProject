@@ -10,12 +10,14 @@ namespace Day20Assignment
     public class Mood
     {
         private string msg;
-
+        public Mood()
+        {
+            this.msg = null;
+        }
         public Mood(string msg)
         {
             this.msg = msg;
         }
-
         public string Analysis()
         {
             try
