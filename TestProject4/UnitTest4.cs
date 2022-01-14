@@ -10,7 +10,7 @@ namespace TestProject4
         public void ReturnHappyMoodUsingReflectorInvoke()
         {
             string expected = "HAPPY";
-            string mood = MoodAnalyserFactory.MoodInvokeAnalyse("HAPPY", "MoodInvokeAnalyse");
+            string mood = MoodAnalyserFactory.MoodInvokeAnalyse("HAPPY", "Analysis");
             Assert.AreEqual(expected, mood);
         }
 
@@ -20,7 +20,7 @@ namespace TestProject4
             try
             {
                 string expected = "method not found";
-                string mood = MoodAnalyserFactory.MoodInvokeAnalyse("HAPPY", "AnalyseMoodWrong");
+                string mood = MoodAnalyserFactory.MoodInvokeAnalyse("HAPPY", "AnalyseWrong");
                 Assert.AreNotEqual(expected, mood);
             }
 
