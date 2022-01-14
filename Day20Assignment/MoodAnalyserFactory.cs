@@ -28,7 +28,29 @@ namespace Day20Assignment
             }
             else
             {
-                throw new CustomExceptions(CustomExceptions.exType.NO_SUCH_METHOD, "cONSTRUCTOR NOT EXISTS");
+                throw new CustomExceptions(CustomExceptions.exType.NO_SUCH_METHOD, "CONSTRUCTOR NOT EXISTS");
+            }
+        }
+
+        public static object CreateMoodAnalyserParaCnstr(string classname, string cnstrname, string message)
+        {
+            Type type = typeof(Mood);
+            if(type.Name.Equals(classname) || type.FullName.Equals(classname))
+            {
+                if(type.Name.Equals(cnstrname))
+                {
+                    ConstructorInfo c = type.GetConstructor(new[] {typeof(string)});
+                    object instance = c.Invoke(new object[] {message});
+                    return instance;
+                }
+                else
+                {
+                    throw new CustomExceptions(CustomExceptions.exType.NO_SUCH_METHOD, "Constructor not found");
+                }
+            }
+            else
+            {
+                throw new CustomExceptions(CustomExceptions.exType.NO_SUCH_CLASS, "Class not found");
             }
         }
     }
