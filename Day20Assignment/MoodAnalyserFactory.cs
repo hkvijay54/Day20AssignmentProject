@@ -71,5 +71,25 @@ namespace Day20Assignment
             }
         }
 
+        public static string DynamicFeild(string msg, string fieldName)
+        {
+            try
+            {
+                Mood md1 = new Mood();
+                Type type = typeof(Mood);
+                FieldInfo field = type.GetField(fieldName, BindingFlags.Public | BindingFlags.Instance);
+                if (msg == null)
+                {
+                    throw new CustomExceptions(CustomExceptions.exType.EMPTY_MSG, "Message should not be null");
+                }
+                field.SetValue(md1, msg);
+                return md1.msg;
+            }
+            catch (NullReferenceException)
+            {
+                throw new CustomExceptions(CustomExceptions.exType.NO_SUCH_FIELD, "Field not Found");
+            }
+        }
+
     }
 }

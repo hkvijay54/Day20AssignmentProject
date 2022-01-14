@@ -18,7 +18,8 @@ namespace Day20Assignment
             NO_SUCH_TYPE,
             NO_SUCH_EXCEPTION,
             NO_SUCH_METHOD_EXCEPTION,
-            NULL_VALUE
+            NULL_VALUE,
+            NO_SUCH_FIELD
         }
 
         private readonly exType type;
