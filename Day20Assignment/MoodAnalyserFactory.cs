@@ -53,5 +53,23 @@ namespace Day20Assignment
                 throw new CustomExceptions(CustomExceptions.exType.NO_SUCH_CLASS, "Class not found");
             }
         }
+
+        public static string MoodInvokeAnalyse(string message, string methodName)
+        {
+            try
+            {
+                Type type = typeof(Mood);
+                MethodInfo methodInfo = type.GetMethod(methodName);
+                object moodAnalyserObject = MoodAnalyserFactory.CreateMoodAnalyserParaCnstr("DAy20Assignment.Mood", "Mood", message);
+                object info = methodInfo.Invoke(moodAnalyserObject, null);
+                return info.ToString();
+            }
+
+            catch (NullReferenceException)
+            {
+                throw new CustomExceptions(CustomExceptions.exType.NULL_VALUE, "method not found");
+            }
+        }
+
     }
 }
